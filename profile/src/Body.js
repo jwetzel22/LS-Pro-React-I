@@ -5,7 +5,7 @@ import Links from './Links';
 class Body extends Component {
   render() {
     return(
-      <div>
+      <div className='body'>
         <Info />
         <Links />
       </div>

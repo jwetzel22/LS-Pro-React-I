@@ -1,10 +1,25 @@
-body {
-  margin: 10px;
-  padding: 10px;
-  font-family: sans-serif;
+html {
   background-color: whitesmoke;
 }
-.git img {
+
+body {
+  margin: 10px auto;
+  font-family: sans-serif;
+  background-color: white;
+  width: 600px;
+}
+.links img {
 	height: 25px;
 	width: 25px;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: rgba(0, 108, 0, .75);
+  text-align: center;
+
+}
+
+.body {
+  margin: 10px;
 }
