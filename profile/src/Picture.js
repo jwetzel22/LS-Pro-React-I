@@ -4,8 +4,7 @@ import './Picture.css';
 export default class Picture extends Component {
 	render() {
 		return(
-  		<img src={ this.props.src } alt={ this.props.alt }>
-      </img>
+  		<img src={ this.props.src } alt={ this.props.alt } />
     );
 	}
 }
